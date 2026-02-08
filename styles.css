@@ -1235,6 +1235,12 @@ section {
         height: 1px;
     }
     
+    /* Make Olympiad Cards Section visible on mobile */
+    .olympiads {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
     .footer-grid {
         grid-template-columns: 1fr;
         gap: 40px;
